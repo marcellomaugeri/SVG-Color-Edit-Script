@@ -8,7 +8,7 @@ pip install -r requirements.txt
 
 ### Usage:
 ```bash
-python3 script.py --path ./downloads/4.GAMBA\ ESTERNA.svg --pathType file --method change_colors --colors #ed1c24:#000080
+python3 script.py --path ./image.svg --pathType file --method change_colors --colors #ed1c24:#000080
 ```
 
 ### Arguments:
