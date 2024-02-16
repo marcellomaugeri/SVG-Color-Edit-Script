@@ -12,7 +12,7 @@ def build_parser():
     parser = argparse.ArgumentParser(description='Input the target path, specify if it is a file or a folder, the output path and the method (show_colors|change_colors)')
     parser.add_argument('--path', type=str, help='Path to the target file', required=True)
     parser.add_argument('--pathType', type=str, help='Type of the target path (file|folder)', choices=['file', 'folder'], required=True)
-    parser.add_argument('--output', type=str, help='Path to the output file', default='./output')
+    parser.add_argument('--output', type=str, help='Path to the output file', default='./')
     parser.add_argument('--method', type=str, help='Method to be used (show_colors|change_colors)', choices=['show_colors', 'change_colors'])
     parser.add_argument('--colors', type=str, help='List of colors to be changed, each couple sourceColor:targetColor must separated by commas', default=None)
     return parser
